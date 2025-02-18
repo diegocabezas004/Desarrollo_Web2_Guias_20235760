@@ -31,7 +31,7 @@ export function Search ({query, setQuery}) {
 export function NumResults ({movies}) {
     return (
       <p className="num-results">
-        <strong>{movies.length}</strong> resultados encontrados
+        <strong>{movies.lenght}</strong> resultados encontrados
       </p>
     );
 }
